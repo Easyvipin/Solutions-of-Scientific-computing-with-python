@@ -103,5 +103,78 @@ output:4
 ```
 
 
+#####  More Conditional Structures
 
+Given the following code:
+```
+temp = "5 degrees"
+cel = 0
+fahr = float(temp)
+cel = (fahr - 32.0) * 5.0 / 9.0
+print(cel)
+```
+Which line/lines should be surrounded by try block?
 
+<ins> solution </ins>
+
+```
+3,4
+
+// we always contain those statement in our try block which have a chances of traceback or error.
+```
+
+#####  Python Functions
+
+What is the purpose of the "def" keyword in Python?
+
+<ins> solution </ins>
+
+```
+// It indicates the start of a function, and the following indented section of code is to be stored for later.
+
+```
+#####  Build your own Functions
+
+What will the following Python program print out?
+```
+def fred():
+    print("Zap")
+    
+def jane():
+    print("ABC")
+    
+jane() // call jane
+fred() // call fred
+jane() // call jane again
+    
+```
+<ins> solution </ins>
+
+```
+ABC
+Zap
+ABC
+``` 
+
+#####  Build your own Functions
+
+What will the following Python program print out?
+```
+def fred():
+    print("Zap")
+    
+def jane():
+    print("ABC")
+    
+jane() // call jane
+fred() // call fred
+jane() // call jane again
+    
+```
+<ins> solution </ins>
+
+```
+ABC
+Zap
+ABC
+``` 
